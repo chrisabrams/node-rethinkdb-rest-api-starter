@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "author": "Chris Abrams",
+  "name": "node-rethinkdb-rest-api-starter",
+  "title": "Node RethinkDB Rest API Starter",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "main": "./server.js",
+  "dependencies": {
+    "bcrypt": "*",
+    "coffee-script": "1.6.2",
+    "rethinkdb": "1.9.0-1",
+    "underscore": "1.4.2"
+  },
+  "devDependencies": {
+    "chai": "1.6.0",
+    "docco": "0.6.2",
+    "mocha": "1.9.0"
+  }
+}
